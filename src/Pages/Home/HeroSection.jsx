@@ -16,10 +16,13 @@ export default function HeroSection() {
             <br /> Eligendi sint eius animi laudantium facilis!
           </p>
         </div>
-        <button className="btn btn-primary"> Get in touch</button>
+        <button className="btn btn-primary"
+          onClick={() => window.open("https://www.linkedin.com/in/yalahuangfeng/", "_blank")}> 
+          Get in touch
+        </button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        {/* <img src="./img/hero_img.png" alt="Hero Section" /> */}
       </div>
     </section>
   );
